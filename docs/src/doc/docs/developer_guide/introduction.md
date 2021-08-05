@@ -3,7 +3,7 @@
 ## Building WouaMatrimony SDK
 
 WouaMatrimony SDK is built with Gradle. To build it, use `./gradlew build`.
-Alternatively, open the project directory in IntelliJ IDEA and use the IDE to build and run Dokka.
+Alternatively, open the project directory in IntelliJ IDEA or Android Studio and use the IDE to build and run Dokka.
 
 Here's how to import and configure Dokka in IntelliJ IDEA 2019.3:
 
@@ -63,7 +63,7 @@ package org.jetbrains.dokka.sample
 import org.jetbrains.dokka.plugability.DokkaPlugin
 
 class SamplePlugin : DokkaPlugin() {
-    extension by extending {
+    val extension by extending {
         DokkaCore.sourceToDocumentableTranslator with CustomSourceToDocumentableTranslator
     }
 }
