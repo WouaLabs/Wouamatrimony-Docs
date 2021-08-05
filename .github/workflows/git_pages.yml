@@ -41,6 +41,6 @@ jobs:
         if: steps.filter.outputs.docs_changed == 'true'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./WouaMatrimony-Docs/docs/build/mkdocs
+          publish_dir: ./WouaMatrimony-Docs/
           keep_files: true
           full_commit_message: Publish ${{ env.WOUAMATRIMONY_VERSION }} documentation
