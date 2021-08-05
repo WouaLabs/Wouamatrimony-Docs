@@ -12,7 +12,7 @@ The provided Maven / CLI / Gradle configuration is read.Then, all the `DokkaPlug
 
 ### Creating documentation models
 
-The documentation models are created.
+The documentation models are created
 
 This step uses `DokkaCore.sourceToDocumentableTranslator` entry point. All extensions registered using this entry point will be invoked. Each of them is required to implement `SourceToDocumentableTranslator` interface:
 
