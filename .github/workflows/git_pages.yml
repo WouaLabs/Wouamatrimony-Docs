@@ -37,7 +37,7 @@ jobs:
         working-directory: ./Wouamatrimony-Docs
 
       - name: Deploy
-        uses: woualabs/git_pages
+        uses: woualabs/git_pages@v1
         if: steps.filter.outputs.docs_changed == 'true'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
