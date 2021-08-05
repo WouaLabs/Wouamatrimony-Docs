@@ -15,4 +15,4 @@ WouaMatrimony provides support for the following build systems:
 * [Command line](user_guide/cli/usage.md)
 
 !!! note
-    The Gradle plugin is the preferred way to use WouaMatrimony
+    The Gradle plugin is the preferred way to use WouaMatrimony SDK
