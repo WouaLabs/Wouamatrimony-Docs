@@ -5,7 +5,7 @@ Android (Jetpack Compose)
 iOS (SwiftUI)
 Desktop (Compose for Desktop)
 Web (Kotlin/JS + React Wrapper)
-JVM
+JVM.
 
 ## Integrations
 WouaMatrimony provides support for the following build systems:
