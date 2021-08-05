@@ -3,7 +3,7 @@ name: Build and deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   docs:
@@ -32,7 +32,7 @@ jobs:
         working-directory: ./Wouamatrimony-Docs
 
       - name: Build docs
-        run: ./gradlew mkdocsBuild -PWouamatrimony_version=$Wouamatrimony_VERSION --info
+        run: ./gradlew mkdocsBuild -Pwouamatrimony_version=$WOUAMATRIMONY_VERSION --info
         if: steps.filter.outputs.docs_changed == 'true'
         working-directory: ./Wouamatrimony-Docs
 
@@ -40,9 +40,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: steps.filter.outputs.docs_changed == 'true'
         with:
-#          branch: gh-pages
-#          folder: ${{ env.WOUAMATRIMONY_VERSION }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./WouaMatrimony-Docs/docs/build/mkdocs
+          publish_dir: ./Wouamatrimony-Docs/docs/build/mkdocs
           keep_files: true
           full_commit_message: Publish ${{ env.WOUAMATRIMONY_VERSION }} documentation
