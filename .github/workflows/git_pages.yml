@@ -9,10 +9,10 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout dokka
+      - name: Checkout Wouamatrimony-Docs
         uses: actions/checkout@v2
         with:
-          path: dokka
+          path: Wouamatrimony-Docs
 
       - uses: dorny/paths-filter@v2
         id: filter
@@ -26,21 +26,21 @@ jobs:
         with:
           java-version: 11
 
-      - name: Get current dokka version
-        run: echo "DOKKA_VERSION=`./gradlew :properties | grep '^version:.*' | cut -d ' ' -f 2 | cut -d '-' -f 1`" >> $GITHUB_ENV
+      - name: Get current Wouamatrimony version
+        run: echo "WOUAMATRIMONY_VERSION=`./gradlew :properties | grep '^version:.*' | cut -d ' ' -f 2 | cut -d '-' -f 1`" >> $GITHUB_ENV
         if: steps.filter.outputs.docs_changed == 'true'
-        working-directory: ./dokka
+        working-directory: ./Wouamatrimony-Docs
 
       - name: Build docs
-        run: ./gradlew mkdocsBuild -Pdokka_version=$DOKKA_VERSION --info
+        run: ./gradlew mkdocsBuild -PWouamatrimony_version=$Wouamatrimony_VERSION --info
         if: steps.filter.outputs.docs_changed == 'true'
-        working-directory: ./dokka
+        working-directory: ./Wouamatrimony-Docs
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: steps.filter.outputs.docs_changed == 'true'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dokka/docs/build/mkdocs
+          publish_dir: ./WouaMatrimony-Docs/docs/build/mkdocs
           keep_files: true
-          full_commit_message: Publish ${{ env.DOKKA_VERSION }} documentation
+          full_commit_message: Publish ${{ env.WOUAMATRIMONY_VERSION }} documentation
