@@ -89,7 +89,7 @@ interface SampleExtensionPointInterface
 
 All registered plugins are accessible with `DokkaContext.plugin` function. All plugins that extends `DokkaPlugin` can use `DokkaPlugin.plugin` function, that uses underlying `DokkaContext` instance. If you want to pass context to your extension, you can obtain it using aforementioned `providing` infix function.
 
-With plugin instance obtained, you can browse extensions registered for this plugins' extension points using `querySingle` and `query` methods:
+With plugin instance obtained, you can browse extensions registered for this plugins' extension-points using `querySingle` and `query` methods:
 
 ```kotlin
     context.plugin<DokkaBase>().query { htmlPreprocessors }

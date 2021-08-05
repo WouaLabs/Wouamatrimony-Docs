@@ -42,7 +42,7 @@ jobs:
         with:
           branch: gh-pages
           folder: ${{ env.WOUAMATRIMONY_VERSION }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./WouaMatrimony-Docs/docs/build/mkdocs
-          keep_files: true
-          full_commit_message: Publish ${{ env.WOUAMATRIMONY_VERSION }} documentation
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          publish_dir: ./WouaMatrimony-Docs/docs/build/mkdocs
+#          keep_files: true
+#          full_commit_message: Publish ${{ env.WOUAMATRIMONY_VERSION }} documentation
