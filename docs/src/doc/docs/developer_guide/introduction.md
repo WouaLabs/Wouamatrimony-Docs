@@ -1,6 +1,6 @@
 # Guide to Dokka Plugin development
 
-## Building Dokka
+## Building WouaMatrimony SDK
 
 Dokka is built with Gradle. To build it, use `./gradlew build`.
 Alternatively, open the project directory in IntelliJ IDEA and use the IDE to build and run Dokka.
