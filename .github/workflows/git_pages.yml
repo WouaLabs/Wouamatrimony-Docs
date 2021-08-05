@@ -20,7 +20,7 @@ jobs:
           filters: |
             docs_changed:
               - 'docs/**'
-          working-directory: ./dokka
+          working-directory: ./Wouamatrimony-Docs
 
       - uses: actions/setup-java@v1
         with:
