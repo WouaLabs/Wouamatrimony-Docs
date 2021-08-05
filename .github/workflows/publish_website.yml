@@ -19,7 +19,8 @@ jobs:
           python-version: 3.8
 
       - name: Prep mkdocs
-        run: .github/workflows/mkdocs.sh
+        run: Wouamatrimony-Docs/.github/workflows/mkdocs.sh
+        
 
       - name: Build mkdocs
         run: |
