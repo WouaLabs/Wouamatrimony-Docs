@@ -96,7 +96,7 @@ With plugin instance obtained, you can browse extensions registered for this plu
     context.plugin<DokkaBase>().querySingle { samplesTransformer }
 ```
 
-You can also browse `DokkaContext` directly, using `single` and `get` methods:
+You can also browse `DokkaContext` directly, using `single` and `get` methods :
 
 ```kotlin
 class SamplePlugin : DokkaPlugin() {
