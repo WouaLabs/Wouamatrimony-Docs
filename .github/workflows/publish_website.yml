@@ -21,8 +21,11 @@ jobs:
 #      - name: Prep mkdocs
 #        run: .github/workflows/prepare_mkdocs.sh
 
+#      - name: Get current Wouamatrimony version
+#          run: echo "WOUAMATRIMONY_VERSION=`./gradlew :properties | grep '^version:.*' | cut -d ' ' -f 2 | cut -d '-' -f 1`" >> $GITHUB_ENV
+
       - name: Build mkdocs
-        run: mkdocs build
+        run: ./gradlew mkdocsBuild -Pwouamatrimony_version=$WOUAMATRIMONY_VERSION --info
 #          pip3 install -r requirements.txt
 
 
