@@ -3,11 +3,11 @@ site_name: Woualabs
 # Meta tags (placed in header)
 site_description: Dokka is a documentation engine for Kotlin, performing the same function as javadoc for Java
 site_author: Jetbrains
-site_url: https://github.com/Woualabs/WouaMatrimonyKMP
+site_url: https://woualabs.github.io/Wouamatrimony-Docs/
 
 # Repository (add link to repository on each page)
 repo_name: wouaMatrimony
-repo_url: https://github.com/Woualabs/WouaMatrimonyKMP
+repo_url: https://github.com/Woualabs/Wouamatrimony-Docs
 edit_uri: edit/master/docs/src/doc/docs/
 
 # Copyright (shown at the footer)
