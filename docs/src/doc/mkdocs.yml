@@ -16,10 +16,29 @@ copyright: 'Copyright &copy; 2021 Woualabs'
 # Material theme
 theme:
   name: 'material'
-  favicon: favicon.svg
+  favicon: logo.png
+  logo: logo.png
+  features:
+      - navigation.instant
+      - navigation.tracking
+      - navigation.tabs
+      - navigation.expand
+  palette:
+    primary: blue
+    accent: pink
   social:
     - type: 'github'
-      link: 'https://github.com/Woualabs/WouaMatrimonyKMP'
+    - link: 'https://github.com/Woualabs/WouaMatrimonyKMP'
+
+#  feature:
+#    tabs: true
+#  features:
+#    - navigation.instant
+#    - navigation.tracking
+#    - navigation.tabs
+#social:
+#  - type: 'github'
+#    link: 'https://github.com/Woualabs/WouaMatrimonyKMP'
 
 # Extensions
 markdown_extensions:
@@ -43,27 +62,38 @@ markdown_extensions:
 #dev_addr: 127.0.0.1:3001
 
 nav:
-  - Home: index.md
-  - User guide:
-      - Introduction: user_guide/introduction.md
-      - Gradle: user_guide/gradle/usage.md
-      - Maven: user_guide/maven/usage.md
-      - Command line: user_guide/cli/usage.md
-      - Html frontend: user_guide/base-specific/frontend.md
-      - Versioning: user_guide/versioning/versioning.md
-      - Android plugin: user_guide/android-plugin/android-plugin.md
-  - Plugin development:
-      - Introduction: developer_guide/introduction.md
-      - Data model: developer_guide/data_model.md
-      - Extension points: developer_guide/extension_points.md
-  - Community:
-      - Community plugins: community/plugins-list.md
-  - About:
-      - FAQ: about/FAQ.md
-      - Slack channel: about/slack_channel.md
+  - 'Home': index.md
+#  - Introductions:
+#      Ios: Introduction/ios.md
 
-extra_javascript:
-  - expand_navigation.js
+
+  - 'User guide':
+      - 'Introduction': user_guide/introduction.md
+#        - Ios:
+#        - Android:
+      - 'Gradle': user_guide/gradle/usage.md
+      - 'Maven': user_guide/maven/usage.md
+      - 'Command line': user_guide/cli/usage.md
+      - 'Html frontend': user_guide/base-specific/frontend.md
+      - 'Versioning': user_guide/versioning/versioning.md
+      - 'Android plugin': user_guide/android-plugin/android-plugin.md
+  - 'Plugin development':
+      - 'Introduction': developer_guide/introduction.md
+      - 'Data model': developer_guide/data_model.md
+      - 'Extension points': developer_guide/extension_points.md
+  - 'Community':
+      - 'Community plugins': community/plugins-list.md
+  - 'About':
+      - 'FAQ': about/FAQ.md
+      - 'Slack channel': about/slack_channel.md
+
+#extra_javascript:
+#  - expand_navigation.js
 
 extra_css:
   - dokka_colors.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Woualabs/Wouamatrimony-Docs
