@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'org.jetbrains.kotlin.jvm' version '1.4.32'
+//    id("ru.vyarus.mkdocs") version "2.1.1"
     id 'org.jetbrains.dokka' version '1.5.0'
 }
 
@@ -13,10 +14,16 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    compileClasspath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.0")
+    compileClasspath( "org.jetbrains.dokka:dokka-gradle-plugin:1.4.32")
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
 
 test {
     useJUnitPlatform()
+}
+
+tasks.named("dokkaGfm").configure {
+    outputDirectory = file("$rootDir/docs/1.x")
 }
