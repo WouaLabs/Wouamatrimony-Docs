@@ -25,9 +25,9 @@ jobs:
 #          run: echo "WOUAMATRIMONY_VERSION=`./gradlew :properties | grep '^version:.*' | cut -d ' ' -f 2 | cut -d '-' -f 1`" >> $GITHUB_ENV
 
       - name: Build mkdocs
-        run: ./gradlew mkdocsBuild -Pwouamatrimony_version=$WOUAMATRIMONY_VERSION --info
-#          pip3 install -r requirements.txt
-
+        run: |
+          pip3 install
+          mkdocs build
 
       - name: Deploy 🚀
         if: success()
