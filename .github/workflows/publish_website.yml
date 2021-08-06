@@ -16,10 +16,10 @@ jobs:
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
-          python-version: 2.1.2
+          python-version: 2.8
 
-#      - name: Prep mkdocs
-#        run: .github/workflows/prepare_mkdocs.sh
+      - name: Prep mkdocs
+        run: .github/workflows/prepare_mkdocs.sh
 
 #      - name: Get current Wouamatrimony version
 #          run: echo "WOUAMATRIMONY_VERSION=`./gradlew :properties | grep '^version:.*' | cut -d ' ' -f 2 | cut -d '-' -f 1`" >> $GITHUB_ENV
