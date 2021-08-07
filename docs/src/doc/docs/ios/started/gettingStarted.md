@@ -1,8 +1,8 @@
 #Getting Started
-# WouaMatrimonyIOS
+## WouaMatrimonyIOS
 This repo to have matrimony iOS app along with SDK integrated
 
-#Steps for Framework Export
+##Steps for Framework Export
 
 1. In android studio build the task named woua-matrimonysdk ->multiplatform swift package -> create swift xcframework
 2. The framework was generated in swift package -> WouaMatrimonyKmp.xcframework->ios-x86_64 ->Wouamatrimonysdk.framework
@@ -17,7 +17,7 @@ This repo to have matrimony iOS app along with SDK integrated
 8. In General tab ->Frameworks,Libraries and Embedded content -> here that will show the added frameworks on that select your framework -> choose "Embed and sign"
 9. Build your xcode project and you are ready to use the functions in the framework
 
-#Note:
+##Note:
 Sometimes it will produce an error like "The linked framework 'yourframeworkname.framework'is missing one or more architectures required by this target: arm64" to resolve this error,follow the below steps
 1.In project target window select the target tab ->Build settings ->Excluded architecture ->Debug ->Select any ios simulator sdk -> arm64
 <img width="1126" alt="Screenshot 2021-07-01 at 8 27 31 AM" src="https://user-images.githubusercontent.com/79501698/124058014-319ef900-da46-11eb-86e7-8d4d0367e4c3.png">
@@ -25,7 +25,7 @@ Sometimes it will produce an error like "The linked framework 'yourframeworkname
 3.Build settings ->Build options -> validate workspace ->change the value to YES default value will be No
 <img width="1136" alt="Screenshot 2021-07-01 at 8 28 56 AM" src="https://user-images.githubusercontent.com/79501698/124058128-64e18800-da46-11eb-8f63-cc0f03471a85.png">
 
-#Steps For Adding framework from pods
+##Steps For Adding framework from pods
 
 1.In android studio buld the task -> cocoapods -> podspec, then podspec will be generated for the sdk.
 2. Create a xcode project and open the location in finder.
