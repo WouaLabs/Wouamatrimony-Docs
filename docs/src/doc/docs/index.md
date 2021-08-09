@@ -10,10 +10,10 @@ Web (Kotlin/JS + React Wrapper)
 JVM
 
 ## Setup
-* [Android](android/started/gettingStarted.md)
-* [IOS](ios/started/gettingStarted.md)
+* [Android](getting/android.md)
+* [IOS](getting/ios.md)
 * [JavaScript-Dealer](javascript/dealer/started/gettingStarted.md)
-* [JavaScript-User](javascript/customer/started/gettingStarted.md)
+* [JavaScript-User](getting/js.md)
 ## Jetpack Compose for Desktop client
 
 This client is available in `compose-desktop` module.  Note that you currently need to use EAP version of kotlin

@@ -61,14 +61,14 @@ markdown_extensions:
   - def_list
   - toc:
       permalink: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - attr_list
+  - pymdownx.highlight:
+      use_pygments: false
+  - pymdownx.tabbed
 # Dev server binding
 #dev_addr: 127.0.0.1:3001
 
@@ -76,39 +76,14 @@ nav:
   - 'Overview': index.md
   - 'Changelog': changelog.md
   - 'Code of Conduct': code_of_conduct.md
-
-  - IOS:
-      - 'Getting Started': ios/started/gettingStarted.md
-      - 'Guides':
-          - 'User OnBoard': ios/guides/userOnboard.md
-          - 'User Access': ios/guides/userAccess.md
-          - 'Plan': ios/guides/plan.md
-          - 'Notification': ios/guides/notification.md
-
-  - Android:
-      - 'Getting Started': android/started/gettingStarted.md
-      - 'Guides':
-          - 'User OnBoard': android/guides/userOnboard.md
-          - 'User Access': android/guides/userAccess.md
-          - 'Plan': android/guides/plan.md
-          - 'Notification': android/guides/notification.md
-
-  - JavaScript:
-      - Dealer:
-          - 'Getting Started': javascript/dealer/started/gettingStarted.md
-          - 'Guides':
-              - 'User OnBoard': javascript/dealer/guides/userOnboard.md
-              - 'User Access': javascript/dealer/guides/userAccess.md
-              - 'Plan': javascript/dealer/guides/plan.md
-              - 'Notification': javascript/dealer/guides/notification.md
-
-      - Customer:
-          - 'Getting Started': javascript/customer/started/gettingStarted.md
-          - 'Guides':
-              - 'User OnBoard': javascript/customer/guides/userOnboard.md
-              - 'User Access': javascript/customer/guides/userAccess.md
-              - 'Plan': javascript/customer/guides/plan.md
-              - 'Notification': javascript/customer/guides/notification.md
-
+  - Gettting Started:
+      - Ios: getting/ios.md
+      - Android: getting/android.md
+      - Javascript: getting/js.md
+  - Api:
+      - User OnBoard: sdkApi/userOnboard.md
+      - User Access: sdkApi/userAccess.md
+      - Plan: sdkApi/plan.md
+      - Notification: sdkApi/notification.md
   - About:
-      - 'Release notes': about/history.md
+      - Release notes: about/history.md
