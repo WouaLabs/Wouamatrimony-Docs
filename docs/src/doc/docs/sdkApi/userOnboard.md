@@ -37,7 +37,6 @@
                                     print(error.message)
                                 }
                        })
-
     ```
 === "Javascript"
 ```js

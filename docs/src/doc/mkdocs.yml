@@ -7,7 +7,7 @@ site_url: https://woualabs.github.io/Wouamatrimony-Docs/
 
 # Repository (add link to repository on each page)
 repo_name: WouaMatrimony-Doc
-repo_url: https://woualabs.github.io/Wouamatrimony-Docs
+repo_url: https://github.com/WouaLabs/Wouamatrimony-Docs/
 edit_uri: edit/master/src/doc/docs/
 
 #Copyright (shown at the footer)
@@ -36,8 +36,8 @@ theme:
 
 #extra:
 #  palette:
-#    primary: 'indigo'
-#    accent: 'indigo'
+#    primary: blue
+#    accent: pink
 
 #  social:
 #    - icon: fontawesome/brands/github
@@ -66,8 +66,8 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - attr_list
-  - pymdownx.highlight:
-      use_pygments: false
+  - pymdownx.highlight
+#      use_pygments: false
   - pymdownx.tabbed
 # Dev server binding
 #dev_addr: 127.0.0.1:3001
@@ -85,5 +85,6 @@ nav:
       - User Access: sdkApi/userAccess.md
       - Plan: sdkApi/plan.md
       - Notification: sdkApi/notification.md
+      - Lookup Data: sdkApi/lookup.md
   - About:
       - Release notes: about/history.md
