@@ -1,0 +1,1315 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <meta name="author" content="Woualabs">
+      
+      
+        <link rel="canonical" href="https://woualabs.github.io/Wouamatrimony-Docs/1.0-SNAPSHOT/errorCode/errorCode/">
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.6">
+    
+    
+      
+        <title>Error Code - WouaMatrimony|Doc</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2c0c5eaf.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="pink">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#error-codes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="WouaMatrimony|Doc" class="md-header__button md-logo" aria-label="WouaMatrimony|Doc" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            WouaMatrimony|Doc
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Error Code
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/WouaLabs/Wouamatrimony-Docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    WouaMatrimony-Doc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        Overview
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../getting/ios/" class="md-tabs__link">
+        SDK Integration
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sdkApi/userOnboard/" class="md-tabs__link">
+        Customer API
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sdkApi/userOnboard/" class="md-tabs__link md-tabs__link--active">
+        Dealer API
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../1.x/" class="md-tabs__link">
+      ApiReference
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/history/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="WouaMatrimony|Doc" class="md-nav__button md-logo" aria-label="WouaMatrimony|Doc" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    WouaMatrimony|Doc
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/WouaLabs/Wouamatrimony-Docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    WouaMatrimony-Doc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" data-md-state="indeterminate" type="checkbox" id="__nav_1" checked>
+      
+      <label class="md-nav__link" for="__nav_1">
+        Overview
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Overview" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Overview
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        Changelog
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../code_of_conduct/" class="md-nav__link">
+        Code of Conduct
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
+        SDK Integration
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="SDK Integration" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          SDK Integration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting/ios/" class="md-nav__link">
+        Ios
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting/android/" class="md-nav__link">
+        Android
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting/js/" class="md-nav__link">
+        Javascript
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+      
+      <label class="md-nav__link" for="__nav_3">
+        Customer API
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Customer API" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Customer API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdkApi/userOnboard/" class="md-nav__link">
+        User OnBoard
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdkApi/userAccess/" class="md-nav__link">
+        User Access
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdkApi/plan/" class="md-nav__link">
+        Plan
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdkApi/notification/" class="md-nav__link">
+        Notification
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdkApi/lookup/" class="md-nav__link">
+        Lookup Data
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Error Code
+      </a>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous/miscellaneous/" class="md-nav__link">
+        Miscellaneous
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      <label class="md-nav__link" for="__nav_4">
+        Dealer API
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Dealer API" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Dealer API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdkApi/userOnboard/" class="md-nav__link">
+        User OnBoard
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdkApi/userAccess/" class="md-nav__link">
+        User Access
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdkApi/plan/" class="md-nav__link">
+        Plan
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdkApi/notification/" class="md-nav__link">
+        Notification
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sdkApi/lookup/" class="md-nav__link">
+        Lookup Data
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Error Code
+      </a>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous/miscellaneous/" class="md-nav__link">
+        Miscellaneous
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1.x/" class="md-nav__link">
+        ApiReference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" data-md-state="indeterminate" type="checkbox" id="__nav_6" checked>
+      
+      <label class="md-nav__link" for="__nav_6">
+        About
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/history/" class="md-nav__link">
+        Release notes
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/WouaLabs/Wouamatrimony-Docs/edit/main/docs/src/doc/docs/errorCode/errorCode.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="error-codes">Error Codes<a class="headerlink" href="#error-codes" title="Permanent link">&para;</a></h1>
+<p>WouaMatrimony SDK has two types of error codes:</p>
+<p>Client error codes: these errors are usually caused by something the client app side did, such as incorrect or invalid parameter, or sending a request when disconnected.
+Server error codes: these errors are usually caused by a Sendbird server side issue.</p>
+<h1 id="client-error-code">Client Error Code<a class="headerlink" href="#client-error-code" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th align="left">Error</th>
+<th align="left">Code</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">UN_AUTHORIZED</td>
+<td align="left">401</td>
+<td align="left">Authorization error</td>
+</tr>
+<tr>
+<td align="left">NOT_FOUND</td>
+<td align="left">404</td>
+<td align="left">The requested data was not found</td>
+</tr>
+<tr>
+<td align="left">ACCESS_DENIED</td>
+<td align="left">403</td>
+<td align="left">Access denied</td>
+</tr>
+<tr>
+<td align="left">INTERNAL_SERVER_ERROR</td>
+<td align="left">500</td>
+<td align="left">Internal server error</td>
+</tr>
+<tr>
+<td align="left">SECURE_CONNECTION_FAILED</td>
+<td align="left">1101</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">SERVER_CERTIFICATE_HAS_BAD_DATE</td>
+<td align="left">1102</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">SERVER_CERTIFICATE_UN_TRUSTED</td>
+<td align="left">1103</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">SERVER_CERTIFICATE_HAS_UNKNOWN_ROOT</td>
+<td align="left">1104</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">SERVER_CERTIFICATE_NOT_YET_VALID</td>
+<td align="left">1105</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">CLIENT_CERTIFICATE_REJECTED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">CLIENT_CERTIFICATE_REQUIRED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">CANNOT_LOAD_FROM_NETWORK</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="server-error-code">Server Error Code<a class="headerlink" href="#server-error-code" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th align="left">Code</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">M0000</td>
+<td align="left">Unable to process the current request. Please try again or contact administrator...</td>
+</tr>
+<tr>
+<td align="left">M1001</td>
+<td align="left">Invalid credentials</td>
+</tr>
+<tr>
+<td align="left">M1002</td>
+<td align="left">Invalid request</td>
+</tr>
+<tr>
+<td align="left">M1003</td>
+<td align="left">Invalid data</td>
+</tr>
+<tr>
+<td align="left">M1004</td>
+<td align="left">Invalid User type</td>
+</tr>
+<tr>
+<td align="left">M1005</td>
+<td align="left">Invalid key</td>
+</tr>
+<tr>
+<td align="left">M1006</td>
+<td align="left">Current password is not valid one.Please try again</td>
+</tr>
+<tr>
+<td align="left">M1007</td>
+<td align="left">Invalid resource URL</td>
+</tr>
+<tr>
+<td align="left">M1008</td>
+<td align="left">Invalid request</td>
+</tr>
+<tr>
+<td align="left">M1009</td>
+<td align="left">Sorry Your verification code is not vaild Please enter correct one</td>
+</tr>
+<tr>
+<td align="left">M1010</td>
+<td align="left">Invalid OTP</td>
+</tr>
+<tr>
+<td align="left">M1011</td>
+<td align="left">Invalid Mobile number</td>
+</tr>
+<tr>
+<td align="left">M1012</td>
+<td align="left">Invalid Admin key</td>
+</tr>
+<tr>
+<td align="left">M1013</td>
+<td align="left">Invalid Dealer key</td>
+</tr>
+<tr>
+<td align="left">M1014</td>
+<td align="left">Invalid Customer key</td>
+</tr>
+<tr>
+<td align="left">M1015</td>
+<td align="left">Invalid Action Customer key</td>
+</tr>
+<tr>
+<td align="left">M1016</td>
+<td align="left">Invalid Role</td>
+</tr>
+<tr>
+<td align="left">M1017</td>
+<td align="left">Invalid Super key</td>
+</tr>
+<tr>
+<td align="left">M1018</td>
+<td align="left">Invalid Registration key</td>
+</tr>
+<tr>
+<td align="left">M1019</td>
+<td align="left">Invalid Password Please give the correct password key</td>
+</tr>
+<tr>
+<td align="left">M1020</td>
+<td align="left">Invalid logged user key</td>
+</tr>
+<tr>
+<td align="left">M1021</td>
+<td align="left">Invalid partner key</td>
+</tr>
+<tr>
+<td align="left">M1022</td>
+<td align="left">Invalid email address</td>
+</tr>
+<tr>
+<td align="left">M1023</td>
+<td align="left">Invalid sub type id</td>
+</tr>
+<tr>
+<td align="left">M1024</td>
+<td align="left">Invalid Id</td>
+</tr>
+<tr>
+<td align="left">M1025</td>
+<td align="left">Invalid request Id</td>
+</tr>
+<tr>
+<td align="left">M1026</td>
+<td align="left">Unable to find the plan details</td>
+</tr>
+<tr>
+<td align="left">M1027</td>
+<td align="left">Unable to find the plan details for dealer</td>
+</tr>
+<tr>
+<td align="left">M1028</td>
+<td align="left">Invalid sub type id or no more details for sub type id</td>
+</tr>
+<tr>
+<td align="left">M1029</td>
+<td align="left">Invalid City Id</td>
+</tr>
+<tr>
+<td align="left">M1030</td>
+<td align="left">Records already exists</td>
+</tr>
+<tr>
+<td align="left">M1031</td>
+<td align="left">Mobile number already exists</td>
+</tr>
+<tr>
+<td align="left">M1032</td>
+<td align="left">Email already exists</td>
+</tr>
+<tr>
+<td align="left">M1033</td>
+<td align="left">Portal already exists</td>
+</tr>
+<tr>
+<td align="left">M1034</td>
+<td align="left">Email or Mobile already exists</td>
+</tr>
+<tr>
+<td align="left">M1035</td>
+<td align="left">Already actioned</td>
+</tr>
+<tr>
+<td align="left">M1036</td>
+<td align="left">Caste already exists</td>
+</tr>
+<tr>
+<td align="left">M1037</td>
+<td align="left">Sub Caste already exists</td>
+</tr>
+<tr>
+<td align="left">M1038</td>
+<td align="left">Plan already exists with Same duration</td>
+</tr>
+<tr>
+<td align="left">M1039</td>
+<td align="left">Request has already been sent and waiting for approval Please contact administrator further processing</td>
+</tr>
+<tr>
+<td align="left">M1040</td>
+<td align="left">Request has been processed already</td>
+</tr>
+<tr>
+<td align="left">M1041</td>
+<td align="left">Horoscope already exists</td>
+</tr>
+<tr>
+<td align="left">M1042</td>
+<td align="left">The password has been already updated with same OTP</td>
+</tr>
+<tr>
+<td align="left">M1043</td>
+<td align="left">Partners id's should not be same</td>
+</tr>
+<tr>
+<td align="left">M1044</td>
+<td align="left">Dealers should be same</td>
+</tr>
+<tr>
+<td align="left">M1045</td>
+<td align="left">Request has been already pending state</td>
+</tr>
+<tr>
+<td align="left">M1046</td>
+<td align="left">Unable to activate the plan request Becuase Request has been already processed</td>
+</tr>
+<tr>
+<td align="left">M1047</td>
+<td align="left">Request has been already processed</td>
+</tr>
+<tr>
+<td align="left">M1048</td>
+<td align="left">Two boxes are already available</td>
+</tr>
+<tr>
+<td align="left">M1049</td>
+<td align="left">Already box exists</td>
+</tr>
+<tr>
+<td align="left">M1050</td>
+<td align="left">Already happy story available for this groom &amp; bride</td>
+</tr>
+<tr>
+<td align="left">M1051</td>
+<td align="left">Your account has been already activated</td>
+</tr>
+<tr>
+<td align="left">M1052</td>
+<td align="left">Your Request has been already processed</td>
+</tr>
+<tr>
+<td align="left">M1053</td>
+<td align="left">Dealer Name already exists</td>
+</tr>
+<tr>
+<td align="left">M1054</td>
+<td align="left">Unable to create horoscope</td>
+</tr>
+<tr>
+<td align="left">M1055</td>
+<td align="left">Unable to change password</td>
+</tr>
+<tr>
+<td align="left">M1056</td>
+<td align="left">Session is expired Please login again</td>
+</tr>
+<tr>
+<td align="left">M1057</td>
+<td align="left">Unable to modify the plan</td>
+</tr>
+<tr>
+<td align="left">M1058</td>
+<td align="left">Maximum limit 3 only</td>
+</tr>
+<tr>
+<td align="left">M1059</td>
+<td align="left">Unable to generate token</td>
+</tr>
+<tr>
+<td align="left">M1060</td>
+<td align="left">Invalid Refresh token</td>
+</tr>
+<tr>
+<td align="left">M1061</td>
+<td align="left">Your account has been deactivated Please contact administrator</td>
+</tr>
+<tr>
+<td align="left">M1062</td>
+<td align="left">Your account has been deleted Please contact administrator</td>
+</tr>
+<tr>
+<td align="left">M1063</td>
+<td align="left">Your account has been locked Please contact administrator</td>
+</tr>
+<tr>
+<td align="left">M1064</td>
+<td align="left">Unable to process without token</td>
+</tr>
+<tr>
+<td align="left">M1065</td>
+<td align="left">Invalid access token</td>
+</tr>
+<tr>
+<td align="left">M1066</td>
+<td align="left">Could not create the directory where the uploaded files will be stored</td>
+</tr>
+<tr>
+<td align="left">M1067</td>
+<td align="left">Sorry Unable to upload file Please try again</td>
+</tr>
+<tr>
+<td align="left">M1068</td>
+<td align="left">Sorry File format is not supported</td>
+</tr>
+<tr>
+<td align="left">M1069</td>
+<td align="left">Sorry Filename is not valid</td>
+</tr>
+<tr>
+<td align="left">M1070</td>
+<td align="left">Sorry Invalid content key Please try again</td>
+</tr>
+<tr>
+<td align="left">M1071</td>
+<td align="left">Unable to create dealer account Please contact administrator</td>
+</tr>
+<tr>
+<td align="left">M1072</td>
+<td align="left">Unable to create customer account Please contact administrator</td>
+</tr>
+<tr>
+<td align="left">M1073</td>
+<td align="left">You have been sent request Please wait or contact administrator</td>
+</tr>
+<tr>
+<td align="left">M1074</td>
+<td align="left">You are not allowed to make this operation Please contact administrator</td>
+</tr>
+<tr>
+<td align="left">M1075</td>
+<td align="left">Unable to retrieve the dealer detail</td>
+</tr>
+<tr>
+<td align="left">M1076</td>
+<td align="left">Unable to retrieve the dealer portal detail</td>
+</tr>
+<tr>
+<td align="left">M1077</td>
+<td align="left">Unable to retrieve the customer detail</td>
+</tr>
+<tr>
+<td align="left">M1078</td>
+<td align="left">Temporary password had been modified by Customer or Dealer</td>
+</tr>
+<tr>
+<td align="left">M1079</td>
+<td align="left">Unable to find the temporary password</td>
+</tr>
+<tr>
+<td align="left">M1080</td>
+<td align="left">Unable to find active plan for this user</td>
+</tr>
+<tr>
+<td align="left">M1081</td>
+<td align="left">Payment status is not updated. Please connect your dealer</td>
+</tr>
+<tr>
+<td align="left">M1082</td>
+<td align="left">Invalid Transaction key</td>
+</tr>
+<tr>
+<td align="left">M1083</td>
+<td align="left">Invalid Payment key</td>
+</tr>
+<tr>
+<td align="left">M1084</td>
+<td align="left">Transaction ID was already used some customer</td>
+</tr>
+<tr>
+<td align="left">M1085</td>
+<td align="left">Age limit should be 18 to 75</td>
+</tr>
+<tr>
+<td align="left">M1086</td>
+<td align="left">Your plan doesn't have to make this action Please contact administrator</td>
+</tr>
+<tr>
+<td align="left">M1087</td>
+<td align="left">You have reached your maximum limit of action allowed</td>
+</tr>
+<tr>
+<td align="left">M1088</td>
+<td align="left">Your plan has been expired on Please renewal your plan</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../../sdkApi/lookup/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Lookup Data
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../../miscellaneous/miscellaneous/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Miscellaneous
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2021 Woualabs
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.expand"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a1c7c35e.min.js"></script>
+      
+    
+  </body>
+</html>
