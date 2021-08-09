@@ -26,7 +26,7 @@ jobs:
 
       - name: Build mkdocs
         run: |
-          pip install -r requirements.txt
+          pip install -r .github/workflows/requirements.txt
           mkdocs build
 
       - name: Deploy 🚀
