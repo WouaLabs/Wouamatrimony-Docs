@@ -74,8 +74,10 @@ markdown_extensions:
 
 nav:
   - 'Overview': index.md
+  - 'Getting started': index.md
   - 'Changelog': changelog.md
   - 'Code of Conduct': code_of_conduct.md
+
   - Gettting Started:
       - Ios: getting/ios.md
       - Android: getting/android.md
