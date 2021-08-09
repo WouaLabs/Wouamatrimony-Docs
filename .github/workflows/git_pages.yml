@@ -3,7 +3,7 @@ name: Build and deploy MkDocs to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - kalaivanan/docs
 
 jobs:
   docs:
@@ -31,7 +31,7 @@ jobs:
         if: steps.filter.outputs.docs_changed == 'true'
         working-directory: ./Wouamatrimony-Docs
 
-      - name: Build docs
+      - name: Build docs1
         run: ./gradlew mkdocsBuild -Pwouamatrimony_version=$WOUAMATRIMONY_VERSION --info
         if: steps.filter.outputs.docs_changed == 'true'
         working-directory: ./Wouamatrimony-Docs

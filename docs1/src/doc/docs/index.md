@@ -12,7 +12,7 @@ JVM
 ## Setup
 * [Android](getting/android.md)
 * [IOS](getting/ios.md)
-* [JavaScript-Dealer](javascript/dealer/started/gettingStarted.md)
+* [JavaScript-Dealer](getting/js.md)
 * [JavaScript-User](getting/js.md)
 ## Jetpack Compose for Desktop client
 

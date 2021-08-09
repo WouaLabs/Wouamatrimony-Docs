@@ -1,0 +1,94 @@
+site_name: WouaMatrimony-Doc
+
+# Meta tags (placed in header)
+site_description: 
+site_author: Woualabs
+site_url: https://woualabs.github.io/Wouamatrimony-Docs/
+
+# Repository (add link to repository on each page)
+repo_name: WouaMatrimony-Doc
+repo_url: https://github.com/WouaLabs/Wouamatrimony-Docs/
+edit_uri: edit/master/src/doc/docs1/
+
+#Copyright (shown at the footer)
+copyright: 'Copyright &copy; 2021 Woualabs'
+
+nav:
+  - 'Overview': index.md
+  - 'Changelog': changelog.md
+  - 'Code of Conduct': code_of_conduct.md
+
+  - Gettting Started:
+      - Ios: getting/ios.md
+      - Android: getting/android.md
+      - Javascript: getting/js.md
+
+  - Api:
+      - User OnBoard: sdkApi/userOnboard.md
+      - User Access: sdkApi/userAccess.md
+      - Plan: sdkApi/plan.md
+      - Notification: sdkApi/notification.md
+      - Lookup Data: sdkApi/lookup.md
+
+  - About:
+      - Release notes: about/history.md
+
+# Meterial theme
+theme:
+  name: 'material'
+  favicon: assets/logo.png
+  logo: assets/logo.png
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.expand
+  palette:
+    primary: blue
+    accent: pink
+  social:
+    - type: 'github'
+    - link: 'https://github.com/Woualabs/WouaMatrimonyKMP'
+
+#plugins:
+#  - search
+#    Required for variables support (https://github.com/rosscdh/mkdocs-markdownextradata-plugin)
+#  - markdownextradata
+
+#extra:
+#  palette:
+#    primary: blue
+#    accent: pink
+
+#  social:
+#    - icon: fontawesome/brands/github
+#      link: https://github.com/you
+#    - icon: fontawesome/brands/twitter
+#      link: https://twitter.com/you
+
+
+# Google Analytics
+#google_analytics:
+#  - 'UA-111111111-1'
+#  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight
+#      use_pygments: false
+  - pymdownx.tabbed
+# Dev server binding
+#dev_addr: 127.0.0.1:3001
+
