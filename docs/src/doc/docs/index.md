@@ -7,7 +7,7 @@ Android (Jetpack Compose)
 iOS (SwiftUI)
 Desktop (Compose for Desktop)
 Web (Kotlin/JS + React Wrapper)
-JVM
+JVM.
 
 ## Setup
 * [Android](getting/android.md)
