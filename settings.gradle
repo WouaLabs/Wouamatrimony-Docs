@@ -1,3 +1,3 @@
 rootProject.name = 'Wouamatrimony-Docs'
 
-//include(":docs1")
+include(":docs")

@@ -2,6 +2,7 @@
 /build/
 /.gradle/
 /local.properties
-/docs1/build/
-/docs1/.gradle/
-/docs1/
+/docs/build/
+/docs/.gradle/
+/docs/
+/docs/build/
