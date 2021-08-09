@@ -1,0 +1,6 @@
+//[woua-matrimony-sdk](../../../index.md)/[com.woualabs.matrimony.user.repository](../index.md)/[UserRepository](index.md)/[search](search.md)
+
+# search
+
+[common]\
+abstract suspend fun [search](search.md)(searchType: [SearchType](../../com.woualabs.matrimony.type/-search-type/index.md), searchText: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), page: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), size: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)): [HandlerResult](../../com.woualabs.matrimony.errors/-handler-result/index.md)<[List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[UserRecord](../../com.woualabs.matrimony.user.mapper/-user-record/index.md)>, [WouaSDKException](../../com.woualabs.matrimony.errors.exception/-woua-s-d-k-exception/index.md)>

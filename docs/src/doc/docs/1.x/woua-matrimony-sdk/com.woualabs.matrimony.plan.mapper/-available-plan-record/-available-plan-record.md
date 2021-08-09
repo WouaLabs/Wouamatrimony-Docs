@@ -1,0 +1,9 @@
+//[woua-matrimony-sdk](../../../index.md)/[com.woualabs.matrimony.plan.mapper](../index.md)/[AvailablePlanRecord](index.md)/[AvailablePlanRecord](-available-plan-record.md)
+
+# AvailablePlanRecord
+
+[common]\
+
+@[JvmOverloads](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html)()
+
+fun [AvailablePlanRecord](-available-plan-record.md)(planId: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)?, planName: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, planPrice: [Float](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)?, discount: [Float](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)?, profileView: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, profileViewCount: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, contactView: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, contactViewCount: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, horoscopeDownload: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, horoscopeDownloadCount: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, planDurationInMonthInNumber: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)?, planDuration: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, activePlanId: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)?, activePlanStatus: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, activePlanState: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, activePlanExpiredOn: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)?)

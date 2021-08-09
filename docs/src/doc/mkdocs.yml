@@ -1,4 +1,4 @@
-site_name: WouaMatrimony-Doc
+site_name: WouaMatrimony|Doc
 
 # Meta tags (placed in header)
 site_description: 
@@ -8,12 +8,14 @@ site_url: https://woualabs.github.io/Wouamatrimony-Docs/
 # Repository (add link to repository on each page)
 repo_name: WouaMatrimony-Doc
 repo_url: https://github.com/WouaLabs/Wouamatrimony-Docs/
-edit_uri: edit/master/src/doc/docs/
+edit_uri: edit/main/docs/src/doc/docs/
 
 #Copyright (shown at the footer)
 copyright: 'Copyright &copy; 2021 Woualabs'
 
 nav:
+
+
   - 'Overview':
       - 'Getting Started': index.md
       - 'Changelog': changelog.md
@@ -24,13 +26,24 @@ nav:
       - Android: getting/android.md
       - Javascript: getting/js.md
 
-  - Api:
+  - Customer API:
       - User OnBoard: sdkApi/userOnboard.md
       - User Access: sdkApi/userAccess.md
       - Plan: sdkApi/plan.md
       - Notification: sdkApi/notification.md
       - Lookup Data: sdkApi/lookup.md
+      - Error Code: errorCode/errorCode.md
+      - Miscellaneous: miscellaneous/miscellaneous.md
 
+  - Dealer API:
+      - User OnBoard: sdkApi/userOnboard.md
+      - User Access: sdkApi/userAccess.md
+      - Plan: sdkApi/plan.md
+      - Notification: sdkApi/notification.md
+      - Lookup Data: sdkApi/lookup.md
+      - Error Code: errorCode/errorCode.md
+      - Miscellaneous: miscellaneous/miscellaneous.md
+  - ApiReference: 1.x/index.md
   - About:
       - Release notes: about/history.md
 

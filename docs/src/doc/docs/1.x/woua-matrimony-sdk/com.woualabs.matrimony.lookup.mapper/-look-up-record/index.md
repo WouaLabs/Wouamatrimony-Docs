@@ -1,0 +1,22 @@
+//[woua-matrimony-sdk](../../../index.md)/[com.woualabs.matrimony.lookup.mapper](../index.md)/[LookUpRecord](index.md)
+
+# LookUpRecord
+
+[common]\
+data class [LookUpRecord](index.md)(**dealerList**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[DealerRecord](../../com.woualabs.matrimony.user.mapper/-dealer-record/index.md)>?, **countries**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[CountryRecord](../-country-record/index.md)>?, **cities**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[CityRecord](../-city-record/index.md)>?, **states**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[StateRecord](../-state-record/index.md)>?, **education**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[EducationRecord](../-education-record/index.md)>?, **maritalStatus**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[MaritalStatusRecord](../-marital-status-record/index.md)>?, **appLanguage**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[AppLanguageRecord](../-app-language-record/index.md)>?, **age**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)>?, **height**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[HeightRecord](../-height-record/index.md)>?, **industries**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[IndustryRecord](../-industry-record/index.md)>?, **star**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[StarRecord](../-star-record/index.md)>?)
+
+## Properties
+
+| Name | Summary |
+|---|---|
+| [age](age.md) | [common]<br>var [age](age.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)>? = null |
+| [appLanguage](app-language.md) | [common]<br>var [appLanguage](app-language.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[AppLanguageRecord](../-app-language-record/index.md)>? = null |
+| [cities](cities.md) | [common]<br>var [cities](cities.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[CityRecord](../-city-record/index.md)>? = null |
+| [countries](countries.md) | [common]<br>var [countries](countries.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[CountryRecord](../-country-record/index.md)>? = null |
+| [dealerList](dealer-list.md) | [common]<br>var [dealerList](dealer-list.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[DealerRecord](../../com.woualabs.matrimony.user.mapper/-dealer-record/index.md)>? = null |
+| [education](education.md) | [common]<br>var [education](education.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[EducationRecord](../-education-record/index.md)>? = null |
+| [height](height.md) | [common]<br>var [height](height.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[HeightRecord](../-height-record/index.md)>? = null |
+| [industries](industries.md) | [common]<br>var [industries](industries.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[IndustryRecord](../-industry-record/index.md)>? = null |
+| [maritalStatus](marital-status.md) | [common]<br>var [maritalStatus](marital-status.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[MaritalStatusRecord](../-marital-status-record/index.md)>? = null |
+| [star](star.md) | [common]<br>var [star](star.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[StarRecord](../-star-record/index.md)>? = null |
+| [states](states.md) | [common]<br>var [states](states.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[StateRecord](../-state-record/index.md)>? = null |
