@@ -1,39 +1,24 @@
 #Plan
-##Get plans
-=== "Kotlin"
+##Create Payment
 
-    ``` kotlin
-           WouaMatrimonySDK.plan().getPlans()) 
+=== "Js"
+
+    ``` js
+           createPayment(accountDetails).then(response=>{}).catch(error=>{});
     ```
-=== "Swift"
 
-    ``` swift
-    sdk.plan().getPlans { (result : PlanRecord?, error : WouaSDKException?) in
-            if let result = result{
-                print(result)
-            }
-            else if let error = error{
-                print(error.code)
-                print(error.message)
-            }
-        }
+##Customer Onboard Request Plan Creation
+
+=== "Js"
+
+    ``` js
+           CustomerOnboardRequest(accountDetails).then(response=>{}).catch(error=>{});
     ```
-##Request to upgrade plan
-=== "Kotlin"
 
-    ``` kotlin
-           WouaMatrimonySDK.plan().requestToUpgradePlan(38,PlanState.UPGRADE.value))
-    ```
-=== "Swift"
+##Upgrade Request Activate
 
-    ``` swift
-    sdk.plan().upgradePlan(planId: 1, planState: "plan state", callback:{ (result:Result?, error:WouaSDKException?) in
-            if let result = result{
-                print(result)
-            }
-            else if let error = error{
-                print(error.code)
-                print(error.message)
-            }
-        })
+=== "Js"
+
+    ``` js
+           upgradeReqeuestActivate(accountDetails).then(response=>{}).catch(error=>{});
     ```

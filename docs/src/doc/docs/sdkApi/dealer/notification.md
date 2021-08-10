@@ -1,21 +1,41 @@
 #Notification 
 
-##Notification View
-=== "Kotlin"
+##SignUpRequest
 
-    ``` kotlin
-           WouaMatrimonySDK.notification().notificationView(1,10)) 
+=== "Js"
+
+    ``` js
+           NotifySignUpRequest().then(response=>{}).catch(error=>{}); 
     ```
-=== "Swift"
+##UpgradePlanList
 
-    ``` swift
-    sdk.notification().viewNotification(page: 1, size: 10) { (result:NotificationRecord_?, error:WouaSDKException?) in
-            if let result = result{
-                print(result)
-            }
-            else if let error = error{
-                print(error.code)
-                print(error.message)
-            }
-        }
+=== "Js"
+
+    ``` js
+           NotifyUpGradePlan().then(response=>{}).catch(error=>{});
+    ```
+
+##CustomerReport
+
+=== "Js"
+
+    ``` js
+           NotifyCustomerReport().then(response=>{}).catch(error=>{});
+    ```
+
+
+##SignUpRequestRejection
+
+=== "Js"
+
+    ``` js
+           CustomerOnboardReject().then(response=>{}).catch(error=>{});
+    ```
+
+##UpgradePlanRejection
+
+=== "Js"
+
+    ``` js
+           upgradeReqeuestReject().then(response=>{}).catch(error=>{}); 
     ```
