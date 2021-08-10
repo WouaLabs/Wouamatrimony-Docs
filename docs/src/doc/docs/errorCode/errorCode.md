@@ -13,60 +13,31 @@ Server error codes: these errors are usually caused by a Sendbird server side is
 | NOT_FOUND          | 404  | The requested data was not found |
 | ACCESS_DENIED      | 403  | Access denied |
 | INTERNAL_SERVER_ERROR| 500 | Internal server error|
-| SECURE_CONNECTION_FAILED| 1101 | |
-| SERVER_CERTIFICATE_HAS_BAD_DATE| 1102  | |
-| SERVER_CERTIFICATE_UN_TRUSTED| 1103 | |
-| SERVER_CERTIFICATE_HAS_UNKNOWN_ROOT| 1104 | |
-| SERVER_CERTIFICATE_NOT_YET_VALID| 1105 | |
-| CLIENT_CERTIFICATE_REJECTED| | |
-| CLIENT_CERTIFICATE_REQUIRED| | |
-| CANNOT_LOAD_FROM_NETWORK| | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+| SECURE_CONNECTION_FAILED| 1101 | The SSL certificate error. Secure connection failed|
+| SERVER_CERTIFICATE_HAS_BAD_DATE| 1102  | The SSL certificate error. Server certificate has bad date|
+| SERVER_CERTIFICATE_UN_TRUSTED| 1103 | The SSL certificate error. Server certificate untrusted|
+| SERVER_CERTIFICATE_HAS_UNKNOWN_ROOT| 1104 | The SSL certificate error. Server certificate has unknown root|
+| SERVER_CERTIFICATE_NOT_YET_VALID| 1105 | The SSL certificate error. Server certificate not yet valid|
+| CLIENT_CERTIFICATE_REJECTED| 1106| The SSL certificate error. Client certificate rejected|
+| CLIENT_CERTIFICATE_REQUIRED| 1107| The SSL certificate error. Client certificate required|
+| CANNOT_LOAD_FROM_NETWORK| 1108| The SSL certificate error. Cannot load from network|
+| UN_AUTHORIZED| 401| Authorization error|
+| NOT_FOUND| 404| The requested data was not found|
+| ACCESS_DENIED| 403| Access denied|
+| INTERNAL_SERVER_ERROR| 500| Internal server error|
 
-[comment]: <> (SECURE_CONNECTION_FAILED&#40;1101,"The SSL certificate error. Secure connection failed"&#41;,)
+UN_AUTHORIZED(401,"Authorization error"),
+NOT_FOUND(404,"The requested data was not found"),
+ACCESS_DENIED(403,"Access denied"),
+INTERNAL_SERVER_ERROR(500,"Internal server error"),
 
-[comment]: <> (SERVER_CERTIFICATE_HAS_BAD_DATE&#40;)
-
-[comment]: <> (1102,)
-
-[comment]: <> ("The SSL certificate error. Server certificate has bad date")
-
-[comment]: <> (&#41;,)
-
-[comment]: <> (SERVER_CERTIFICATE_UN_TRUSTED&#40;1103,"The SSL certificate error. Server certificate untrusted"&#41;,)
-
-[comment]: <> (SERVER_CERTIFICATE_HAS_UNKNOWN_ROOT&#40;)
-
-[comment]: <> (1104,)
-
-[comment]: <> ("The SSL certificate error. Server certificate has unknown root")
-
-[comment]: <> (&#41;,)
-
-[comment]: <> (SERVER_CERTIFICATE_NOT_YET_VALID&#40;)
-
-[comment]: <> (1105,)
-
-[comment]: <> ("The SSL certificate error. Server certificate not yet valid")
-
-[comment]: <> (&#41;,)
-
-[comment]: <> (CLIENT_CERTIFICATE_REJECTED&#40;1106,"The SSL certificate error. Client certificate rejected"&#41;,)
-
-[comment]: <> (CLIENT_CERTIFICATE_REQUIRED&#40;1107,"The SSL certificate error. Client certificate required"&#41;,)
-
-[comment]: <> (CANNOT_LOAD_FROM_NETWORK&#40;1108,"The SSL certificate error. Cannot load from network"&#41;)
 
 #Server Error Code
 
-| Code        | Description                          |
-| :---------- | :----------------------------------- |
-| M0000       |  Unable to process the current request. Please try again or contact administrator...  |
-| M1001       |  Invalid credentials |
+| Code     | Description                          |
+| :------- | :----------------------------------- |
+| M0000    |  Unable to process the current request. Please try again or contact administrator...  |
+| M1001    |  Invalid credentials |
 | M1002    |  Invalid request |
 | M1003    | Invalid data |
 | M1004    | Invalid User type|

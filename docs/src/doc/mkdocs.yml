@@ -1,4 +1,4 @@
-site_name: WouaMatrimony|Doc
+site_name: WouaMatrimony | Docs
 
 # Meta tags (placed in header)
 site_description: 
@@ -6,16 +6,14 @@ site_author: Woualabs
 site_url: https://woualabs.github.io/Wouamatrimony-Docs/
 
 # Repository (add link to repository on each page)
-repo_name: WouaMatrimony-Doc
-repo_url: https://github.com/WouaLabs/Wouamatrimony-Docs/
-edit_uri: edit/main/docs/src/doc/docs/
+#repo_name: WouaMatrimony-Doc
+#repo_url: https://github.com/WouaLabs/Wouamatrimony-Docs/
+#edit_uri: edit/main/docs/src/doc/docs/
 
 #Copyright (shown at the footer)
 copyright: 'Copyright &copy; 2021 Woualabs'
 
 nav:
-
-
   - 'Overview':
       - 'Getting Started': index.md
       - 'Changelog': changelog.md
@@ -36,11 +34,11 @@ nav:
       - Miscellaneous: miscellaneous/miscellaneous.md
 
   - Dealer API:
-      - User OnBoard: sdkApi/userOnboard.md
-      - User Access: sdkApi/userAccess.md
-      - Plan: sdkApi/plan.md
-      - Notification: sdkApi/notification.md
-      - Lookup Data: sdkApi/lookup.md
+      - User OnBoard: sdkApi/dealer/userOnboard.md
+      - User Access: sdkApi/dealer/userAccess.md
+      - Plan: sdkApi/dealer/plan.md
+      - Notification: sdkApi/dealer/notification.md
+      - Lookup Data: sdkApi/dealer/lookup.md
       - Error Code: errorCode/errorCode.md
       - Miscellaneous: miscellaneous/miscellaneous.md
   - ApiReference: 1.x/index.md
@@ -51,27 +49,25 @@ nav:
 theme:
   name: 'material'
   favicon: assets/logo.png
-  logo: assets/logo.png
+  logo: assets/logos.png
   features:
     - navigation.tracking
     - navigation.tabs
     - navigation.expand
-  palette:
-    primary: blue
-    accent: pink
   social:
     - type: 'github'
     - link: 'https://github.com/Woualabs/WouaMatrimonyKMP'
+#  palette:
+#    primary: '#19275A'
+#    accent: pink
 
 #plugins:
 #  - search
 #    Required for variables support (https://github.com/rosscdh/mkdocs-markdownextradata-plugin)
 #  - markdownextradata
 
-#extra:
-#  palette:
-#    primary: blue
-#    accent: pink
+extra_css:
+  - assets/app.css
 
 #  social:
 #    - icon: fontawesome/brands/github
