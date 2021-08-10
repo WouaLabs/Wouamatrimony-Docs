@@ -614,8 +614,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#notification-view" class="md-nav__link">
-    Notification View
+  <a href="#signuprequest" class="md-nav__link">
+    SignUpRequest
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgradeplanlist" class="md-nav__link">
+    UpgradePlanList
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customerreport" class="md-nav__link">
+    CustomerReport
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signuprequestrejection" class="md-nav__link">
+    SignUpRequestRejection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgradeplanrejection" class="md-nav__link">
+    UpgradePlanRejection
   </a>
   
 </li>
@@ -752,8 +780,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#notification-view" class="md-nav__link">
-    Notification View
+  <a href="#signuprequest" class="md-nav__link">
+    SignUpRequest
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgradeplanlist" class="md-nav__link">
+    UpgradePlanList
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customerreport" class="md-nav__link">
+    CustomerReport
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signuprequestrejection" class="md-nav__link">
+    SignUpRequestRejection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgradeplanrejection" class="md-nav__link">
+    UpgradePlanRejection
   </a>
   
 </li>
@@ -772,21 +828,33 @@
                 
                 
                 <h1 id="notification">Notification<a class="headerlink" href="#notification" title="Permanent link">&para;</a></h1>
-<h2 id="notification-view">Notification View<a class="headerlink" href="#notification-view" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Kotlin</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code>       <span class="n">WouaMatrimonySDK</span><span class="p">.</span><span class="na">notification</span><span class="p">().</span><span class="na">notificationView</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">10</span><span class="p">))</span> 
+<h2 id="signuprequest">SignUpRequest<a class="headerlink" href="#signuprequest" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Js</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>       <span class="nx">NotifySignUpRequest</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span><span class="p">=&gt;{}).</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span><span class="p">=&gt;{});</span> 
 </code></pre></div>
 </div>
-<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Swift</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="n">sdk</span><span class="p">.</span><span class="n">notification</span><span class="p">().</span><span class="n">viewNotification</span><span class="p">(</span><span class="n">page</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="n">size</span><span class="p">:</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span> <span class="p">(</span><span class="n">result</span><span class="p">:</span><span class="n">NotificationRecord_</span><span class="p">?,</span> <span class="n">error</span><span class="p">:</span><span class="n">WouaSDKException</span><span class="p">?)</span> <span class="k">in</span>
-        <span class="k">if</span> <span class="kd">let</span> <span class="nv">result</span> <span class="p">=</span> <span class="n">result</span><span class="p">{</span>
-            <span class="bp">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-        <span class="p">}</span>
-        <span class="k">else</span> <span class="k">if</span> <span class="kd">let</span> <span class="nv">error</span> <span class="p">=</span> <span class="n">error</span><span class="p">{</span>
-            <span class="bp">print</span><span class="p">(</span><span class="n">error</span><span class="p">.</span><span class="n">code</span><span class="p">)</span>
-            <span class="bp">print</span><span class="p">(</span><span class="n">error</span><span class="p">.</span><span class="n">message</span><span class="p">)</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
+</div>
+<h2 id="upgradeplanlist">UpgradePlanList<a class="headerlink" href="#upgradeplanlist" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Js</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>       <span class="nx">NotifyUpGradePlan</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span><span class="p">=&gt;{}).</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span><span class="p">=&gt;{});</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="customerreport">CustomerReport<a class="headerlink" href="#customerreport" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Js</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>       <span class="nx">NotifyCustomerReport</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span><span class="p">=&gt;{}).</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span><span class="p">=&gt;{});</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="signuprequestrejection">SignUpRequestRejection<a class="headerlink" href="#signuprequestrejection" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">Js</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>       <span class="nx">CustomerOnboardReject</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span><span class="p">=&gt;{}).</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span><span class="p">=&gt;{});</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="upgradeplanrejection">UpgradePlanRejection<a class="headerlink" href="#upgradeplanrejection" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set" data-tabs="5:1"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">Js</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>       <span class="nx">upgradeReqeuestReject</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span><span class="p">=&gt;{}).</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span><span class="p">=&gt;{});</span> 
 </code></pre></div>
 </div>
 </div>

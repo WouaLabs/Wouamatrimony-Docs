@@ -602,15 +602,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#get-plans" class="md-nav__link">
-    Get plans
+  <a href="#create-payment" class="md-nav__link">
+    Create Payment
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#request-to-upgrade-plan" class="md-nav__link">
-    Request to upgrade plan
+  <a href="#customer-onboard-request-plan-creation" class="md-nav__link">
+    Customer Onboard Request Plan Creation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade-request-activate" class="md-nav__link">
+    Upgrade Request Activate
   </a>
   
 </li>
@@ -759,15 +766,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#get-plans" class="md-nav__link">
-    Get plans
+  <a href="#create-payment" class="md-nav__link">
+    Create Payment
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#request-to-upgrade-plan" class="md-nav__link">
-    Request to upgrade plan
+  <a href="#customer-onboard-request-plan-creation" class="md-nav__link">
+    Customer Onboard Request Plan Creation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upgrade-request-activate" class="md-nav__link">
+    Upgrade Request Activate
   </a>
   
 </li>
@@ -786,39 +800,21 @@
                 
                 
                 <h1 id="plan">Plan<a class="headerlink" href="#plan" title="Permanent link">&para;</a></h1>
-<h2 id="get-plans">Get plans<a class="headerlink" href="#get-plans" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Kotlin</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code>       <span class="n">WouaMatrimonySDK</span><span class="p">.</span><span class="na">plan</span><span class="p">().</span><span class="na">getPlans</span><span class="p">())</span> 
-</code></pre></div>
-</div>
-<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Swift</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="n">sdk</span><span class="p">.</span><span class="n">plan</span><span class="p">().</span><span class="n">getPlans</span> <span class="p">{</span> <span class="p">(</span><span class="n">result</span> <span class="p">:</span> <span class="n">PlanRecord</span><span class="p">?,</span> <span class="n">error</span> <span class="p">:</span> <span class="n">WouaSDKException</span><span class="p">?)</span> <span class="k">in</span>
-        <span class="k">if</span> <span class="kd">let</span> <span class="nv">result</span> <span class="p">=</span> <span class="n">result</span><span class="p">{</span>
-            <span class="bp">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-        <span class="p">}</span>
-        <span class="k">else</span> <span class="k">if</span> <span class="kd">let</span> <span class="nv">error</span> <span class="p">=</span> <span class="n">error</span><span class="p">{</span>
-            <span class="bp">print</span><span class="p">(</span><span class="n">error</span><span class="p">.</span><span class="n">code</span><span class="p">)</span>
-            <span class="bp">print</span><span class="p">(</span><span class="n">error</span><span class="p">.</span><span class="n">message</span><span class="p">)</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
+<h2 id="create-payment">Create Payment<a class="headerlink" href="#create-payment" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Js</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>       <span class="nx">createPayment</span><span class="p">(</span><span class="nx">accountDetails</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span><span class="p">=&gt;{}).</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span><span class="p">=&gt;{});</span>
 </code></pre></div>
 </div>
 </div>
-<h2 id="request-to-upgrade-plan">Request to upgrade plan<a class="headerlink" href="#request-to-upgrade-plan" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Kotlin</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code>       <span class="n">WouaMatrimonySDK</span><span class="p">.</span><span class="na">plan</span><span class="p">().</span><span class="na">requestToUpgradePlan</span><span class="p">(</span><span class="m">38</span><span class="p">,</span><span class="n">PlanState</span><span class="p">.</span><span class="na">UPGRADE</span><span class="p">.</span><span class="na">value</span><span class="p">))</span>
+<h2 id="customer-onboard-request-plan-creation">Customer Onboard Request Plan Creation<a class="headerlink" href="#customer-onboard-request-plan-creation" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Js</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>       <span class="nx">CustomerOnboardRequest</span><span class="p">(</span><span class="nx">accountDetails</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span><span class="p">=&gt;{}).</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span><span class="p">=&gt;{});</span>
 </code></pre></div>
 </div>
-<input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Swift</label><div class="tabbed-content">
-<div class="highlight"><pre><span></span><code><span class="n">sdk</span><span class="p">.</span><span class="n">plan</span><span class="p">().</span><span class="n">upgradePlan</span><span class="p">(</span><span class="n">planId</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="n">planState</span><span class="p">:</span> <span class="s">&quot;plan state&quot;</span><span class="p">,</span> <span class="n">callback</span><span class="p">:{</span> <span class="p">(</span><span class="n">result</span><span class="p">:</span><span class="n">Result</span><span class="p">?,</span> <span class="n">error</span><span class="p">:</span><span class="n">WouaSDKException</span><span class="p">?)</span> <span class="k">in</span>
-        <span class="k">if</span> <span class="kd">let</span> <span class="nv">result</span> <span class="p">=</span> <span class="n">result</span><span class="p">{</span>
-            <span class="bp">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-        <span class="p">}</span>
-        <span class="k">else</span> <span class="k">if</span> <span class="kd">let</span> <span class="nv">error</span> <span class="p">=</span> <span class="n">error</span><span class="p">{</span>
-            <span class="bp">print</span><span class="p">(</span><span class="n">error</span><span class="p">.</span><span class="n">code</span><span class="p">)</span>
-            <span class="bp">print</span><span class="p">(</span><span class="n">error</span><span class="p">.</span><span class="n">message</span><span class="p">)</span>
-        <span class="p">}</span>
-    <span class="p">})</span>
+</div>
+<h2 id="upgrade-request-activate">Upgrade Request Activate<a class="headerlink" href="#upgrade-request-activate" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Js</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code>       <span class="nx">upgradeReqeuestActivate</span><span class="p">(</span><span class="nx">accountDetails</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span><span class="p">=&gt;{}).</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span><span class="p">=&gt;{});</span>
 </code></pre></div>
 </div>
 </div>
